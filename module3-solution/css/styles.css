@@ -1,0 +1,132 @@
+/* Base Styles */
+body {
+  font-size: 16px;
+  color: #fff;
+  background-color: #61122f;
+  font-family: 'Oxygen', sans-serif;
+}
+
+p {
+  padding: 10px;
+  margin: 10px;
+}
+
+hr {
+  border-color: white;
+}
+
+.container {
+  border: none;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  padding: 10px;
+}
+
+section {
+  border: 1px solid black;
+  background-color: #FFF0F5; /* lavender */
+  width: 100%;
+  height: auto;
+  margin-bottom: 20px;
+  color: black;
+  position: relative;
+  overflow: auto;
+}
+
+#chicken {
+  text-align: center;
+  font-weight: bold;
+  font-size: 125%;
+  margin-bottom: 0;
+  margin-top: 0;
+  padding: 10px;
+  color: #951C49; /* maroon */
+}
+
+#beef {
+  text-align: center;
+  font-weight: bold;
+  font-size: 125%;
+  margin-bottom: 0;
+  margin-top: 0;
+  padding: 10px;
+  color: #951C49; /* maroon */
+}
+
+#sushi {
+  text-align: center;
+  font-weight: bold;
+  font-size: 125%;
+  margin-bottom: 0;
+  margin-top: 0;
+  padding: 10px;
+  color: #951C49; /* maroon */
+}
+
+/** HEADER **/
+#header-nav {
+  background-color: #f6b319; /* yellow-brownish */
+  border-radius: 0;
+  border: 0;
+}
+
+.navbar-brand {
+  padding-top: 20px;
+}
+
+.navbar-brand h1 { /* Restaurant name */
+  font-family: 'Lora', serif;
+  color: #557c3e; /* dark green */
+  font-size: 1.8em;
+  font-weight: bold;
+  text-shadow: 1px 1px 1px #222;
+  margin-top: 0;
+  margin-bottom: 0;
+  line-height: 0.7;
+}
+
+#nav-list { /* Drop-down menu */
+  margin-top: 5px;
+}
+#nav-list a {
+  color: #951C49; /* maroon */
+  text-align: center;
+}
+
+.navbar-header button.navbar-toggle, .navbar-header .icon-bar {
+  border: 1px solid #61122f; /* dark maroon */
+}
+.navbar-header button.navbar-toggle {
+  clear: both;
+  margin-top: -30px;
+}
+/* END HEADER */
+
+
+/********** Large devices only **********/
+@media (min-width: 1200px) {
+
+}
+
+/********** Medium devices only **********/
+@media (min-width: 992px) and (max-width: 1199px) {
+
+}
+
+/********** Small devices only **********/
+@media (min-width: 768px) and (max-width: 991px) {
+
+}
+
+/********** Extra small devices only **********/
+@media (max-width: 767px) {
+
+}
+
+/********** Super extra small devices Only :-) (e.g., iPhone 4) **********/
+@media (max-width: 479px) {
+
+}
+
